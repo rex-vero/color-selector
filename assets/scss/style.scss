@@ -1,0 +1,46 @@
+@font-face {
+    font-family: vazir;
+    src: url('../vazir.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes body {
+    from{background-color: #bebebe;}
+    to{background-color: #303030;}
+}
+
+body {
+    font-family: vazir;
+    animation: body 5s ease-in-out 0s infinite alternate forwards;
+
+    .border-round {
+        border: 1px solid black;
+        border-radius: 10px;
+
+        .input {
+            outline: none;
+            border: none;
+            cursor: auto;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .copy {
+            color: white;
+            border: none;
+            background-color: rgb(145, 145, 226);
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 5px 3px;
+
+            &:hover {
+                transition: 1s;
+                background: linear-gradient(95deg, rgba(255, 0, 0, 1) 0%, rgba(255, 195, 0, 1) 10%, rgba(157, 255, 0, 1) 18%, rgba(0, 255, 212, 1) 27%, rgba(0, 103, 255, 1) 39%, rgba(193, 0, 255, 1) 54%, rgba(226, 7, 205, 1) 71%, rgba(255, 0, 122, 1) 88%, rgba(252, 0, 0, 1) 100%);
+            }
+        }
+    }
+}

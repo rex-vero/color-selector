@@ -1,0 +1,47 @@
+@font-face {
+  font-family: vazir;
+  src: url("../vazir.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes body {
+  from {
+    background-color: #bebebe;
+  }
+  to {
+    background-color: #303030;
+  }
+}
+body {
+  font-family: vazir;
+  animation: body 5s ease-in-out 0s infinite alternate forwards;
+}
+body .border-round {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+body .border-round .input {
+  outline: none;
+  border: none;
+  cursor: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+body .border-round .copy {
+  color: white;
+  border: none;
+  background-color: rgb(145, 145, 226);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px 3px;
+}
+body .border-round .copy:hover {
+  transition: 1s;
+  background: linear-gradient(95deg, rgb(255, 0, 0) 0%, rgb(255, 195, 0) 10%, rgb(157, 255, 0) 18%, rgb(0, 255, 212) 27%, rgb(0, 103, 255) 39%, rgb(193, 0, 255) 54%, rgb(226, 7, 205) 71%, rgb(255, 0, 122) 88%, rgb(252, 0, 0) 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
