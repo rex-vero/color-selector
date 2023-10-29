@@ -10,10 +10,10 @@
 
 @keyframes body {
   from {
-    background-color: #bebebe;
+    background-color: #00011a;
   }
   to {
-    background-color: #303030;
+    background-color: #000042;
   }
 }
 body {
@@ -21,7 +21,7 @@ body {
   animation: body 5s ease-in-out 0s infinite alternate forwards;
 }
 body .border-round {
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
 }
 body .border-round .input {
@@ -34,7 +34,7 @@ body .border-round .input {
 body .border-round .copy {
   color: white;
   border: none;
-  background-color: rgb(145, 145, 226);
+  background-color: #007bff;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 5px 3px;
